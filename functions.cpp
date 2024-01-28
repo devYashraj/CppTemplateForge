@@ -18,15 +18,6 @@ void sieve()
     }
 }
 
-void vectPrint(vector<int> &vec)
-{
-    for (int i : vec)
-    {
-        cout << i << " ";
-    }
-    cout << "\n";
-}
-
 vector<int> findPrimeFactors(int num)
 {
     vector<int> ans;
